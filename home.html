@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ch">
+    <head>
+        <meta charset="UTF-8">
+        <title>細肩帶命</title>
+        <style type="text/css">
+            * {
+    
+    
+                margin: 0;
+                padding: 0;
+            }
+
+            .img-wrapper {
+    
+    		
+                width: 400px;
+                height: 710px;
+                position:absolute;
+                bottom:0px;
+                overflow: hidden;
+                margin: 0px ;
+                background-color: ;
+		
+            }
+            .img-wrapper img{
+    		
+                width: 300px;
+                height: 300px;
+		position:relative;
+  		top:90px;
+ 		left:0px;
+            }
+
+            .img-wrapper p {
+    
+    
+                text-align: center;
+                height: 3px;
+                line-height: 3px;
+                font-size: 10px;
+                margin-bottom: 310px;
+                margin-top: 5px;
+            }
+
+            .img-wrapper button {
+    
+                margin: 10px 3px;
+                font-size: 23px;
+		
+            }
+        </style>
+        <script type="text/javascript">
+            window.onload = function () {
+    
+    
+                let prev = document.getElementById("prev");
+                let next = document.getElementById("next");
+                let img = document.getElementsByTagName("img")[0];
+                let info = document.getElementById("info");
+                //建立一個數組儲存照片的路徑
+                let imgArr = ["ichi.jpg", "haya.jpg", "mitsuru.jpg", "moto.jpg",];
+                let index = 0;
+               
+                prev.onclick = function () {
+    
+    
+                    index--;
+                    prev.style.backgroundColor="#ff4c31";
+                    if (index < 0) {
+    
+    
+                        index = imgArr.length - 1;
+                    }
+                    img.src = imgArr[index];
+                    
+                };
+
+                next.onclick = function () {
+    
+    
+                    index++;
+                    next.style.backgroundColor="#ff4c31";
+                    if (index > imgArr.length - 1) {
+    
+    
+                        index = 0;
+                    }
+                    img.src = imgArr[index];
+                    
+                };
+
+            };
+        </script>
+    </head>
+    <body>
+<body bgcolor="#FFD700">
+        <div class="img-wrapper">
+            <p id="info"></p>
+            <img src="ichi.jpg">
+            <button id="prev">←</button>
+            <button id="next">→</button>
+        </div>
+    </body>
+</html>
