@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Collapse JQuery</title>
+
+<!--連結-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<!--連結css-->
+<link rel="stylesheet" href="tessss.css">
+
+</head>
+
+<body>
+
+<a href="mmme.html" target="4">←回目錄</a>
+<br>
+<br>
+<!--zengo-->
+<div id="q1"><img src="menu zengo.jpg" id="main" alt=""></div>
+<div id="a1"><a href="maekoto.html" target="2"><img src="wasd cv.jpg" id="main" alt=""></a>
+<br><a href="tes.html" target="4"><img src="wasd hon.jpg" id="main" alt=""></a></div>
+<br>
+<!--oku-->
+<div id="q2"><img src="menu pt.jpg" id="main" alt=""> </div>
+<div id="a2"><a href="maekotoku.html" target="2"><img src="wasd cv.jpg" id="main" alt=""></a>
+<br><a href="oku.html" target="4"><img src="wasd hon.jpg" id="main" alt=""></a>
+</div>
+
+
+
+<br>
+<br>
+<div id="q3"><img src="menu fb.jpg" id="main" alt=""> </div>
+<div id="a3"><a href="fb/fb_1.html" target="2">合輯一(2022/12~2023/1)</div>
+<br>
+<br>
+
+<script>
+$(document).ready(function(){
+
+	$("#q1").click(function(){
+		
+		$("#a1").slideToggle(1);
+		
+	});
+	$("#q2").click(function(){
+		$("#a2").slideToggle(1);
+	});
+	$("#q3").click(function(){
+		$("#a3").slideToggle(1);
+	});
+
+})
+
+
+</script>
+
+
+
+<body bgcolor="#FFFDD0">
+
+</body>
+
+</html>

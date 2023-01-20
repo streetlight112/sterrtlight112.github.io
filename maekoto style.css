@@ -1,0 +1,38 @@
+
+
+#cv{
+	width:360px;
+        position:absolute;
+        top:30px;
+	left:30px;
+}
+
+#main{
+	width:300px;
+        position:absolute;
+        top:540px;
+	left:430px;
+}
+
+#bangai{
+	width:300px;
+        position:absolute;
+        top:550px;
+	left:327px;
+}
+
+
+.cc{
+text-align:left;
+width:999px;
+position:absolute;
+left:100px;
+top:20px;
+background-color:;
+
+}
+p{
+position:absolute;
+left:330px;
+
+}
