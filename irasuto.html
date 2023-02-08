@@ -1,34 +1,97 @@
+
+
 <!DOCTYPE html>
+<html lang="en">
 
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title細肩帶命</title>
 
+<!--連結-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<!--連結css-->
+<link rel="stylesheet" href="tessss.css">
 
-<html>
+</head>
 
-  <head>
-
-    <meta charset="utf-8">
-    <title>細肩帶命</title>
- <!--網頁顏色--> 
-
-<link rel="stylesheet" href="zen style.css"/>
-
-  </head>
-
-
-  
-
-
-
-
-</body>
-
-  <body>
-
-<body bgcolor="#FFFDD0">
+<body>
 
 <a href="mmme.html" target="4">←回目錄</a>
-<br><br><br>
-<a href="oriji_irasuto.html" target="2">正方形構圖</a>
+
+
+
+
+
+<br>
+<br><br>
+<!--正方-->
+<div id="q1"><a>正方形插圖(可點擊)</a></div>
+<div id="a1"> 
+
+<a href="oriji_/oriji_irasuto.html" target="2">第一部分(1~20p)</a> 
+
+<br><br>
+
+<a href="oriji_/oriji_irasuto_S.21.html" target="2">第二部分(21p~)</a> 
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+<br>
+<br>
+<!--長方-->
+<div id="q2"><a href="oriji_/oriji_irasuto_.html" target="2">長方形插圖(直)</a></div>
+<div id="a2"> </div>
+
+
+
+
+
+
+
+
+<br>
+<br>
+<!--長方_2-->
+<div id="q3"><a href="oriji_/oriji_irasuto_2.html" target="2">長方形插圖(橫)</a></div>
+<div id="a3"></div>
+<br>
+<br>
+
+
+
+
+
+
+
+
+<!--長方_3-->
+<div id="q4"><a href="oriji_/kyara_irasuto.html" target="2">角色立繪</a></div>
+<div id="a4"></div>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
 <!--<br><br>
 <a href="zengo_irasuto.html" target="2">前後座關係</a>
 <br>
@@ -36,9 +99,41 @@
 <br>-->
 
 
-  </body>
 
 
 
+
+
+
+
+<script>
+$(document).ready(function(){
+
+	$("#q1").click(function(){
+		
+		$("#a1").slideToggle(1);
+		
+	});
+	$("#q2").click(function(){
+		$("#a2").slideToggle(1);
+	});
+	$("#q3").click(function(){
+		$("#a3").slideToggle(1);
+	});
+
+	$("#q4").click(function(){
+		$("#a4").slideToggle(1);
+	});
+
+})
+
+
+</script>
+
+
+
+<body bgcolor="#FFE294">
+
+</body>
 
 </html>
