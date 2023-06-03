@@ -58,7 +58,7 @@ table{
 
 width:400px;
 
-border:3px #ffa874 solid;
+border:4px #ffa874 solid;
 padding:5px;
 " rules="all"
  cellpadding='5';
@@ -70,8 +70,8 @@ padding:5px;
 #ff{
 
 width:400px;
-border:3px #ffa874 solid;
-background-color:;
+border:4px #ffa874 solid;
+background-color:#ffa874;
 
 
 
